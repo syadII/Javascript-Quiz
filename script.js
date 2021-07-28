@@ -1,37 +1,9 @@
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
+var quiz = [
+    ["What is are used to store multiple vaules in a single variable?", "Array"],
+    ["What is a block of code designed to perform a particular task?", "Function"],
+];
 
-	function showQuestions(questions, quizContainer){
-		// code will go here
-	}    var myQuestions = [
-        {
-            question: "What is a block of code used to perform ask",
-            answers: {
-                a: 'String',
-                b: 'Function',
-                c: 'Array'
-            },
-            correctAnswer: 'b'
-        },
-        {
-            question: "What is used to store multiple values in a single variable?",
-            answers: {
-                a: 'Variables',
-                b: 'Events',
-                c: 'Array'
-            },
-            correctAnswer: 'c'
-        }
-    ];
+var answer;
+var response;
 
-	function showResults(questions, quizContainer, resultsContainer){
-		// code will go here
-	}
-
-	// show the questions
-	showQuestions(questions, quizContainer);
-
-	// when user clicks submit, show results
-	startButton.onclick = function(){
-		showResults(questions, quizContainer, resultsContainer);
-	}
-}
+answer = prompt(quiz) 
