@@ -1,7 +1,7 @@
 /* css here */
 
-{
-    border: 1px dotted black;
+  h2 {
+    border-radius: 1px black;
   }
   
   p.question {
@@ -45,13 +45,9 @@
   }
   
   input.quizSubmit[type="submit"] {
-    -webkit-background-clip: border-box;
-    -webkit-background-origin: padding-box;
-    -webkit-background-size: auto;
-    -webkit-transition-delay: 0s, 0s;
-    -webkit-transition-duration: 0.2s, 0.2s;
-    -webkit-transition-property: color, background-color;
-    -webkit-transition-timing-function: ease, ease;
+    flex-wrap: border-box;
+     border-radius: padding-box;
+    background: auto;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
     color: #ffffff;
     background-color: #c30b0a;
@@ -79,19 +75,8 @@
     padding:10px;
     padding-left:25px;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
-  }
+  };
   
-  th {
-    
-  }
-  
-  tr {
-    
-  }
-  
-  td {
-  
-  }
   
   .submitter {
         width:85px;
